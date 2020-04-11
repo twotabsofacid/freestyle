@@ -9,3 +9,37 @@
 body, html {
 	font-family: var(--sans-serif);
 }
+
+.gradient-font {
+	transform: translateZ(0);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0;
+    /*background-image: linear-gradient(to right, red, yellow, blue, purple);*/
+    background-image: linear-gradient(to right, #000, #999, #222, #eee);
+    background-size: 400% 400%;
+}
+
+.gradient-font-animation {
+	transform: translateZ(0);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0;
+    background-image: linear-gradient(to right, #000, #eee);
+    background-size: 400% 400%;
+    animation: backgroundPositionShift 4s ease infinite;
+}
+
+.gradient-font-animation-color {
+	transform: translateZ(0);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0;
+    background-image: linear-gradient(to right, red, yellow, blue, purple);
+    background-size: 400% 400%;
+    animation: backgroundPositionShift 4s ease infinite;
+}
+
+.white {
+	color: white;
+}

@@ -18,6 +18,12 @@
   margin: 0 auto;
 }
 
+.grid-thin {
+  width: 720px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 .right {
   margin-left: auto;
 }
