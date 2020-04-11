@@ -1,0 +1,39 @@
+/*
+
+   LINE HEIGHT / LEADING
+   Docs: http://tachyons.io/docs/typography/line-height
+
+   Media Query Extensions:
+   -ns = not-small
+   -m  = medium
+   -l  = large
+
+*/
+
+  .lh-solid { line-height: var(--line-height-solid); }
+  .lh-title { line-height: var(--line-height-title); }
+  .lh-headline { line-height: var(--line-height-headline); }
+  .lh-copy  { line-height: var(--line-height-copy); }
+
+
+@media screen and (min-width: 481px) {
+  .lh-solid-ns { line-height: var(--line-height-solid); }
+  .lh-title-ns { line-height: var(--line-height-title); }
+  .lh-headline-ns { line-height: var(--line-height-headline); }
+  .lh-copy-ns  { line-height: var(--line-height-copy); }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1100px) {
+  .lh-solid-m { line-height: var(--line-height-solid); }
+  .lh-title-m { line-height: var(--line-height-title); }
+  .lh-headline-m { line-height: var(--line-height-headline); }
+  .lh-copy-m  { line-height: var(--line-height-copy); }
+}
+
+@media screen and (min-width: 1101px) {
+  .lh-solid-l { line-height: var(--line-height-solid); }
+  .lh-title-l { line-height: var(--line-height-title); }
+  .lh-headline-ns { line-height: var(--line-height-headline); }
+  .lh-copy-l  { line-height: var(--line-height-copy); }
+}
+

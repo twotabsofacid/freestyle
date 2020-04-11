@@ -1,0 +1,27 @@
+/*
+* The grid
+*/
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  width: var(--grid-max-width);
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.grid-expanded {
+  display: flex;
+  flex-direction: column;
+  width: var(--grid-expanded-width);
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.left {
+  margin-right: auto;
+}

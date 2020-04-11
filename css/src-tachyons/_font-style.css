@@ -1,0 +1,29 @@
+/*
+
+   FONT STYLE
+   Docs: http://tachyons.io/docs/typography/font-style/
+
+   Media Query Extensions:
+   -ns = not-small
+   -m  = medium
+   -l  = large
+
+*/
+
+.i     { font-style: italic; }
+.fs-normal { font-style: normal; }
+
+@media screen and (min-width: 481px) {
+  .i-ns     { font-style: italic; }
+  .fs-normal-ns   { font-style: normal; }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1100px) {
+  .i-m     { font-style: italic; }
+  .fs-normal-m   { font-style: normal; }
+}
+
+@media screen and (min-width: 1101px) {
+  .i-l     { font-style: italic; }
+  .fs-normal-l   { font-style: normal; }
+}
